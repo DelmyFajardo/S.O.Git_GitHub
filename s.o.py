@@ -8,8 +8,8 @@ print("Este es un ejemplo de código en Python.")
 
 # Bucle for con una lista
 sistemas_operativos = ["Windows", "Linux", "MacOS", "Unix"]
-print("\nSistemas Operativos:")
-for so in sistemas_operativos:
+print("\nSistemas Operativos (orden alfabético):")
+for so in sorted(sistemas_operativos):
     print(f"- {so}")
 
 
