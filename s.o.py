@@ -12,4 +12,8 @@ print("\nSistemas Operativos (orden alfabético):")
 for so in sorted(sistemas_operativos):
     print(f"- {so}")
 
+# En una línea separados por comas
+print(f"\nLista en forma horizontal: {', '.join(sorted(sistemas_operativos))}")
+print ("")
+
 
